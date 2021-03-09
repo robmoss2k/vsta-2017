@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vsta-2017</id>
+    <version>15.0.27520</version>
+    <packageSourceUrl>https://github.com/robmoss2k/vsta-2017</packageSourceUrl>
+    <owners>chocolatey-community,robmoss2k</owners>
+    <title>Microsoft Visual Studio Tools for Applications 2017</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=56046</projectUrl>
+    <iconUrl>https://www.microsoft.com/favicon.ico?v2</iconUrl>
+    <copyright>2021 Microsoft</copyright>
+    <licenseUrl>https://visualstudio.microsoft.com/wp-content/uploads/2017/11/Visual-Studio-2017-Licensing-Whitepaper-November-2017.pdf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://docs.microsoft.com/en-us/visualstudio/?view=vs-2017</docsUrl>
+    <tags>vsta,visual studio</tags>
+    <summary>A set of tools that independent software vendors can use to build customization abilities into their applications for both automation and extensibility.</summary>
+    <description>Visual Studio Tools for Applications (VSTA) is a set of tools that independent software vendors (ISVs) can use to build customization abilities into their applications for both automation and extensibility. Those customization abilities can be used by end-users to tailor the ISV's application within a managed extensibility environment just like Visual Basic for Applications.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
